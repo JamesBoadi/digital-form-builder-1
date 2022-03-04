@@ -93,7 +93,7 @@ export type Output = {
 
 type Toggleable<T> = boolean | T;
 
-type ConfirmationPage = {
+export type ConfirmationPage = {
   customText: {
     title: string;
     paymentSkipped: Toggleable<string>;
