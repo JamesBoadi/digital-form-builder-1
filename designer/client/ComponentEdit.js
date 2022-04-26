@@ -70,7 +70,7 @@ export function ComponentEdit(props) {
     await save(updatedData);
     toggleShowEditor();
   };
-
+// tes
   const handleDelete = async (e) => {
     e.preventDefault();
     const copy = { ...data };
